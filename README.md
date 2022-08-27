@@ -9,7 +9,13 @@
 
 ---
 
-Generated from [fspoettel/advent-of-code-rust](https://github.com/fspoettel/advent-of-code-rust).
+Generated from [steventhorne/aoc-rust](https://github.com/steventhorne/aoc-rust).
+This template is a fork of [fspoettel/advent-of-code-rust](https://github.com/fspoettel/advent-of-code-rust).
+
+Template includes the following changes:
+- Move `scaffold` script to rust module for cross-platform use
+- Remove `download` script in favor of running aoc-cli directly (download script is not cross-platform)
+    - TODO: Make rust script as `download` replacement
 
 ## Create your own
 
