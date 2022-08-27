@@ -10,6 +10,7 @@
 ---
 
 Generated from [steventhorne/aoc-rust](https://github.com/steventhorne/aoc-rust).
+
 This template is a fork of [fspoettel/advent-of-code-rust](https://github.com/fspoettel/advent-of-code-rust).
 
 Template includes the following changes:
