@@ -30,37 +30,22 @@ Generated from [fspoettel/advent-of-code-rust](https://github.com/fspoettel/adve
 ### Setup new day
 
 ```sh
-# example: `./bin/scaffold 1`
-./bin/scaffold <day>
+# example: `cargo run --bin scaffold -- -d 1`
+cargo run --bin scaffold -- -d <day> [-i]
+
+Optional `-i` arg will create the input file as well.
 
 # output:
-# Created module "src/bin/01.rs"
-# Created empty input file "src/inputs/01.txt"
-# Created empty example file "src/examples/01.txt"
+# Created input file for day 01 
+# Created example file for day 01
+# Created module file for day 01
 # ---
 # 🎄 Type `cargo run --bin 01` to run your solution.
 ```
 
 Individual solutions live in the `./src/bin` directory as separate binaries.
 
-Every [solution](https://github.com/fspoettel/advent-of-code-rust/blob/master/bin/scaffold#L21-L52) has _unit tests_ referencing the _example_ file. Use these tests to develop and debug your solution. When editing a solution, `rust-analyzer` will display buttons for these actions above the unit tests.
-
-### Download inputs for a day
-
-```sh
-# example: `./bin/download 1`
-./bin/download <day>
-
-# output:
-# Loaded session cookie from "/home/felix/.adventofcode.session".
-# Downloading input for day 1, 2021...
-# Saving puzzle input to "/tmp/tmp.MBdcAdL9Iw/input"...
-# Done!
-# ---
-# 🎄 Successfully wrote input to "src/inputs/01.txt"!
-```
-
-To download inputs for previous years, append the `--year` flag. _(example: `./bin/download 1 --year 2020`)_
+Every solution has _unit tests_ referencing the _example_ file. Use these tests to develop and debug your solution. When editing a solution, `rust-analyzer` will display buttons for these actions above the unit tests.
 
 Puzzle inputs are not checked into git. [See here](https://old.reddit.com/r/adventofcode/comments/k99rod/sharing_input_data_were_we_requested_not_to/gf2ukkf/?context=3) why.
 
